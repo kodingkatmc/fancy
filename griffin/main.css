@@ -10,16 +10,17 @@ body{
 }
 
 .title{
-    color: aliceblue;
+    color: rgb(64, 127, 182);
 }
 
 .content{
     color:lightgray;
     width: 50vw;
     margin-left: 25vw;
+    text-align: justify;
 }
 
 .footer{
-    color:azure;
+    color:rgb(155, 92, 192);
     font-size: 20px;
 }

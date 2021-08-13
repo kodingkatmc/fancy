@@ -18,16 +18,17 @@ xhr.send(null);
 
 document.addEventListener('click', function(){
 
+    point ++;
     if(point<data.length){
-        point ++;
         //console.log(data[point]);
         line = data[point];
         typing.play();
         typeWritter(0, line);
+    }else{
+        typing.pause();
     }
 
     
-
 });
 
 function typeWritter(pos, line){
